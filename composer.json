@@ -17,6 +17,11 @@
             "Bootstrap\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "tests/"
+        }
+    },
     "license": "MIT",
     "authors": [
         {
