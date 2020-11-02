@@ -43,3 +43,33 @@ The row tag authorized a class attribute for defined other class.
 
 ## Limitation
 The row tag not authorized other attribute then class.
+
+
+# Col
+
+Bootstrap used the col system for defined the cols of page.
+
+In Bootstrap4, the basics cols is :
+- .col
+- .col-sm
+- .col-md
+- .col-lg
+- .col-xl
+The cols accept the -{0,12} for defined size of column.
+
+In Bootstrap4Extension, used the col tag :
+```
+{% col %}
+{% endcol %}
+```
+
+## Type
+The col tag authorized a type attribute for defined col.
+If the type is not defined, the **.col** class is used, but
+type is a value, the **.col-type** class is used.
+
+## Class
+The col tag authorized a class attribute for defined other class.
+
+## Limitation
+The col tag not authorized other attribute then type & class.
