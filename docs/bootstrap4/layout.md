@@ -27,3 +27,19 @@ The container tag authorized a class attribute for defined other class.
 
 ## Limitation
 The container tag not authorized other attribute than type & class.
+
+
+# Row
+
+Bootstrap used the row system for defined the lines of page.
+In Bootstrap4Extension, used the row tag :
+```
+{% row %}
+{% endrow %}
+```
+
+## Class
+The row tag authorized a class attribute for defined other class.
+
+## Limitation
+The row tag not authorized other attribute then class.
