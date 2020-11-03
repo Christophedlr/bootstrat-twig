@@ -3,6 +3,7 @@
 
 namespace Bootstrap\Extension;
 
+use Bootstrap\TokenParser\Bootstrap4\BreadcrumbTokenParser;
 use Bootstrap\TokenParser\Bootstrap4\ColTokenParser;
 use Bootstrap\TokenParser\Bootstrap4\ContainerTokenParser;
 use Bootstrap\TokenParser\Bootstrap4\RowTokenParser;
@@ -16,6 +17,7 @@ class Bootstrap4Extension extends AbstractExtension
             new ContainerTokenParser(),
             new RowTokenParser(),
             new ColTokenParser(),
+            new BreadcrumbTokenParser(),
         ];
     }
 }
